@@ -32,3 +32,15 @@ puts sleep_hours
 #For instance, an index position of 0 indicates the location
 #of the first element, while the index position 2 indicates
 #the position of the third element in an array.
+
+#When the method delete is called on an array, it will
+#delete any element that matches the value in the parentheses
+#It will then return the element in the parentheses
+
+friends = ["alex", "alex", "joe", "jim"]
+numbers = [1, 4, 3, 5, 6, 5, 5, 4]
+
+puts friends.delete("alex")
+puts numbers.delete(5)
+puts friends
+puts numbers

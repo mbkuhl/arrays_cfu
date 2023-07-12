@@ -26,3 +26,9 @@ puts coin_flips
 # of the array. We then print the result
 sleep_hours.pop
 puts sleep_hours
+
+#Index positions are an integer value that represents
+#the location in an array in which an element is stored.
+#For instance, an index position of 0 indicates the location
+#of the first element, while the index position 2 indicates
+#the position of the third element in an array.
